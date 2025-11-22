@@ -48,7 +48,7 @@ module.exports = {
 
     // 🎨 MEDIA & APPEARANCE
     STICKER_NAME: process.env.STICKER_NAME || "✦TOBI", // Default sticker pack name
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/16i1l7.jpg", // Alive command image URL
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/rje7az.jpg", // Alive command image URL
     DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ TOBI*", // Bot description
 
     // 📱 STATUS FEATURES
