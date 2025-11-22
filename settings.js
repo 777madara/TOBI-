@@ -7,7 +7,7 @@ const stringToBool = (str) => str.toLowerCase() === 'true';
 // ⚡ ARSLAN-MD CONFIGURATION - ULTRA STYLISH WITH DESCRIPTIONS
 module.exports = {
     // 🔐 SESSION & AUTHENTICATION
-    SESSION_ID: process.env.SESSION_ID || "", // Your WhatsApp session ID - keep this secure!
+    SESSION_ID: process.env.SESSION_ID || "ARSLAN-MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUlrYU5UVndhZWRaVDJRejdNakttUURiZHk2ZWdEV3duQjlVT3hWM3VuST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSFZlRHExNTdRcWlTc05LYUdhQWRHRWpNSUt6WHF4ekZ3SndDVlBLTkxoaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzRGFHNVZHSGlzWnJzUTZmTll0OWVkNUtTaGJPL3g3WlJ5NE9PTHNCc2s4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFWlUvZEhmbXhpb1dZZ0dOTXg0c3QxUTREVzc0RE8zT1ZURmQ3OHQveTBJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNIYmhMbVpqSGtoVUdNeUZOd1BLdXF4U2kxbWljZzVKZ1VNVWhVRkEybUk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImtQQVlpUkY3UExqaGJvTmRMbVlXc09QZTZlOHJ4ZnQrdmE3WTV5NVN3bjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQUxEaVdZZW1LNS9oZmpBU0NQUDlzK0pUT29nb2Q3K081R1oybU84RmMxQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQkNsaHVmRjBJL1djUmdHL3A2aWp0RDdrVTdHVUxvanEwVU5kK2VBYndVZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImpTVTFLSnRXU2dtelhKZjlDMzdPVFZNSGFici9oTWhHVGRrdGlFNEVYRjlYVFlxTU9zNXZENjNHWUZscnNPS2p3eHdQK1J5ODNvM3UvcjFkUEo1RERBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTQ4LCJhZHZTZWNyZXRLZXkiOiJvTGxpdTFDZmhLODVKalVDWExSMmxQQVllUGk3eXJzS1Fhc1RpVHVpR3RvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIxMjcxMTMwNTA5NEBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJBNUE0Rjg2Q0I2RkMzMjNFQzg1NzdEMUVCQjI5MjkwMyJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzYzODUwMzUwfV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJmZUxJVTVsdlE5NkpwQ0hJbXFTUG5nIiwicGhvbmVJZCI6IjAwOGQ2Mzg5LThjNGMtNDg2Yy04ZDk5LWIxN2M5ZDI2NTQ1MiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOWkcvS2psRU40YitDUGQwMlQ3TGx0K21rKzQ9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWERaTnM2bkVLajlCRGUyUFhOL2xIdzdJYnNjPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjNSNUJNVFc5IiwibWUiOnsiaWQiOiIyMTI3MTEzMDUwOTQ6NjFAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiT0JJVE8tQk9UIiwibGlkIjoiMjcxNDU5NzUwNTE4ODY0OjYxQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS3lMdU9VREVON3dpTWtHR0JnZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoicDB6WmJtbU1SK0RsS0NRcXFiUHBrSklPTTkwOStucmlWLytBMVFLVHh3VT0iLCJhY2NvdW50U2lnbmF0dXJlIjoib1FWUStyak82ZThJQTErelBhU2pvb05NbFlDRGtzSVkyVWVDcDZ0N0ZHSVJsQ3Zxa3RjUk9rcVNDSVp4WG1Eand5Sm1aaVluUlo2Ym1DMnBXS2h2QUE9PSIsImRldmljZVNpZ25hdHVyZSI6InJvVTlTK3gya3NSU1lGR2g4aHBzcml5QmpMbXRlczlBTGhMYlRneGJtVTZraGhFNHVBYm1SK2NDUXhPajZ1NWNBTVNJKzhDY0IrNS9OMFdGSVdrVUNBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjEyNzExMzA1MDk0OjYxQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmFkTTJXNXBqRWZnNVNna0txbXo2WkNTRGpQZFBmcDY0bGYvZ05VQ2s4Y0YifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBVUlFZ2dDIn0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc2Mzg1MDM0OSwibGFzdFByb3BIYXNoIjoiMlY3N3FVIiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFFbGoifQ==", // Your WhatsApp session ID - keep this secure!
 
     // 🎯 SECURITY & MODERATION
     DELETE_LINKS: stringToBool(process.env.DELETE_LINKS || "true"), // Auto delete non-whitelisted links
@@ -23,7 +23,7 @@ module.exports = {
 
     // 🤖 BOT CORE FEATURES
     PREFIX: process.env.PREFIX || ".", // Bot command prefix (e.g., .,!,/,#)
-    BOT_NAME: process.env.BOT_NAME || "✦[ᴀʀꜱʟᴀɴ-ᴍᴅ]✦", // Your bot's display name
+    BOT_NAME: process.env.BOT_NAME || "[OBITO-BOT]", // Your bot's display name
     MODE: process.env.MODE || "public", // Bot mode: "public" or "private"
     chatbotEnabled: stringToBool(process.env.chatbotEnabled || "false"), // Enable AI chatbot feature
     version: process.env.version || "4.0.0", // Bot version number
@@ -41,15 +41,15 @@ module.exports = {
     OWNER_REACT: stringToBool(process.env.OWNER_REACT || "true"), // React to owner's messages
 
     // 👑 OWNER SETTINGS
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923237045919", // Bot owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || "✦ᴀʀꜱʟᴀɴ-ᴍᴅ✦", // Bot owner's display name
-    king: process.env.king || "ᴀʀꜱʟᴀɴ-ᴍᴅ", // Bot king/developer name
-    DEV: process.env.DEV || "923237045919", // Developer contact number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "212711305094", // Bot owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || "OBITO-BOT", // Bot owner's display name
+    king: process.env.king || "OBITO-BOT", // Bot king/developer name
+    DEV: process.env.DEV || "212711305094", // Developer contact number
 
     // 🎨 MEDIA & APPEARANCE
-    STICKER_NAME: process.env.STICKER_NAME || "✦ᴀʀꜱʟᴀɴ-ᴍᴅ✦", // Default sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "✦TOBI", // Default sticker pack name
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/16i1l7.jpg", // Alive command image URL
-    DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ ᴛᴇᴄʜ 🇵🇰*", // Bot description
+    DESCRIPTION: process.env.DESCRIPTION || "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ TOBI*", // Bot description
 
     // 📱 STATUS FEATURES
     AUTO_STATUS_SEEN: stringToBool(process.env.AUTO_STATUS_SEEN || "true"), // Auto-see status updates
